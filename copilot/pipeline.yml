@@ -1,7 +1,7 @@
 # This YAML file defines the relationship and deployment ordering of your environments.
 
 # The name of the pipeline
-name: pipeline-nginx-prince-princepathria97-aws_copilot_testrepo
+name: pipeline-nginx-prince-princepathria97-aws-copilot-testrepo
 
 # The version of the schema used in this template
 version: 1
@@ -14,9 +14,9 @@ source:
   # the artifacts should be sourced from. For example, the GitHub provider
   # has the following properties: repository, branch.
   properties:
-    access_token_secret: github-token-nginx-prince-aws_copilot_testrepo
+    access_token_secret: github-token-nginx-prince-aws-copilot-testrepo
     branch: main
-    repository: https://github.com/princepathria97/aws_copilot_testrepo
+    repository: https://github.com/princepathria97/aws-copilot-testrepo
 
 # The deployment section defines the order the pipeline will deploy
 # to your environments.
